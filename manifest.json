@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",
-    "theme_color": "#E8401A",
+    "theme_color": "#01579B",
     "description": "FENTIR — livraison collaborative à Ouagadougou",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
