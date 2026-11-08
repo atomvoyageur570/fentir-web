@@ -9535,7 +9535,7 @@ bjV(a){var s=$.b0().b
 s===$&&A.b()
 s=s.dX("messages").mo(A.a(["id"],t.s))
 s.Q=new A.lH("mission_id",a,B.eZ)
-s.as=new A.mP("created_at",!1)
+s.as=new A.mP("created_at",!0)
 return new A.cP(new A.aiE(),s,A.m(s).i("cP<b_.T,J<jm>>"))},
 RU(){var s=0,r=A.r(t.a),q,p,o,n,m
 var $async$RU=A.n(function(a,b){if(a===1)return A.o(b,r)
@@ -52383,10 +52383,10 @@ o="Livreur "+A.b0r(m,h)+" du point de collecte"}r.push(A.a_(o,i,i,i,i,B.c_,i,i))
 else{s.toString
 o=s<1?"Position mise \xe0 jour \xe0 l'instant.":"Position mise \xe0 jour il y a "+s+" min."}m=s==null
 r.push(A.a_(o,i,i,i,i,A.e5(i,i,(m?0:s)>5?B.at:B.ap,i,i,i,i,i,i,i,i,13,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i))
-if((m?0:s)>5)r.push(B.ax9)
+if((m?0:s)>5)r.push(B.ax8)
 r.push(B.aG)
 r.push(B.axv)
-if(j.e!=null)B.b.M(r,A.a([B.aG,A.mr(B.uy,B.awZ,new A.aXF(j),i)],k))
+if(j.e!=null)B.b.M(r,A.a([B.aG,A.mr(B.uy,B.awY,new A.aXF(j),i)],k))
 return A.fp(q,i,A.bM(A.a([n,new A.aN(B.bL,A.bM(r,B.aq,B.o,B.r),i)],k),B.w,B.o,B.r),i)}}
 A.aXG.prototype={
 $1(a){return this.a.r4()},
@@ -52530,9 +52530,9 @@ n=o.db
 if(n!=null)k.push(new A.km("payments",n,220,"Capture envoy\xe9e dans l'app (appuyer pour agrandir)",j))
 else k.push(B.aw1)
 k.push(B.d4)
-k.push(B.awy)
+k.push(B.awx)
 k.push(B.bm)
-k.push(A.bt(A.a([new A.e2(1,B.b1,new A.nX(new A.aTg(r,a,o),j,j,j,A.zI(j,j,j,j,j,j,j,j,j,B.at,j,j,j,j,j,B.kD,j,j,j,j),j,j,!1,j,!0,j,B.ax1,j),j),B.cj,new A.e2(1,B.b1,new A.pU(new A.aTh(r,a,o),j,j,j,A.ns(j,j,B.C,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j),j,j,!1,j,!0,j,B.rq,j),j)],i),B.w,B.o,B.r))
+k.push(A.bt(A.a([new A.e2(1,B.b1,new A.nX(new A.aTg(r,a,o),j,j,j,A.zI(j,j,j,j,j,j,j,j,j,B.at,j,j,j,j,j,B.kD,j,j,j,j),j,j,!1,j,!0,j,B.ax0,j),j),B.cj,new A.e2(1,B.b1,new A.pU(new A.aTh(r,a,o),j,j,j,A.ns(j,j,B.C,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j),j,j,!1,j,!0,j,B.rq,j),j)],i),B.w,B.o,B.r))
 h.push(new A.aN(B.ld,new A.hq(j,k,j),j))}h.push(B.an)
 i=this.c
 h.push(new A.eA("Missions en cours ("+i.length+")",j))
@@ -52600,7 +52600,7 @@ A.aOu.prototype={
 $1(a){var s,r,q,p=null,o=t.p,n=A.a([],o)
 for(s=this.a,r=0;r<4;++r){q=B.a7M[r]
 n.push(new A.RQ(A.a_(q,p,p,p,p,B.av4,p,p),new A.aOr(s,q),p))}n=A.bM(A.a([A.oL(n,6,6),B.bm,A.hb(!0,B.b3,!1,p,!0,B.x,p,A.hK(),s,p,p,p,p,p,2,B.a4u,B.T,!0,p,!0,p,!1,p,B.b8,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.bj,p,p,B.b0,B.aV,p,p,p,p,p,p,p,!0,B.ao,p,B.bo,p,p,p,p)],o),B.w,B.o,B.aW)
-return A.kF(A.a([A.dB(!1,B.f7,p,p,p,p,p,p,new A.aOs(a),p,p),A.dB(!1,B.wT,p,p,p,p,p,p,new A.aOt(a,s),p,p)],o),n,p,B.avx)},
+return A.kF(A.a([A.dB(!1,B.f7,p,p,p,p,p,p,new A.aOs(a),p,p),A.dB(!1,B.wT,p,p,p,p,p,p,new A.aOt(a,s),p,p)],o),n,p,B.avy)},
 $S:37}
 A.aOr.prototype={
 $0(){var s=this.b
@@ -52648,7 +52648,7 @@ l=A.Y([null,0],s,o)
 k=m.length
 B.b.M(j,A.a([B.aG,new A.Wy(new A.aFw(2,8,8,1.15),new A.a21(!0,!0,!0,m,l),i,B.a6,!1,i,i,B.aiL,i,!0,i,0,i,k,B.T,B.k4,i,B.x,B.aK,i)],q))}j.push(B.aG)
 m=A.a([new A.uz(i,i,i,B.AK,i,new A.aOx(n),i,i,i,i,B.aBU,i),B.cj],q)
-if(J.e(n.h(0,"is_verified"),!0))m.push(new A.e2(1,B.b1,new A.nX(new A.aOy(r,n),i,i,i,A.zI(i,i,i,i,i,i,i,i,i,B.at,i,i,i,i,i,B.kD,i,i,i,i),i,i,!1,i,!0,i,B.awO,i),i))
+if(J.e(n.h(0,"is_verified"),!0))m.push(new A.e2(1,B.b1,new A.nX(new A.aOy(r,n),i,i,i,A.zI(i,i,i,i,i,i,i,i,i,B.at,i,i,i,i,i,B.kD,i,i,i,i),i,i,!1,i,!0,i,B.awN,i),i))
 else B.b.M(m,A.a([new A.e2(1,B.b1,new A.nX(new A.aOz(r,n),i,i,i,A.zI(i,i,i,i,i,i,i,i,i,B.at,i,i,i,i,i,B.kD,i,i,i,i),i,i,!1,i,!0,i,B.wT,i),i),B.cj,new A.e2(1,B.b1,new A.pU(new A.aOA(r,n),i,i,i,A.ns(i,i,B.C,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),i,i,!1,i,!0,i,B.rq,i),i)],q))
 j.push(A.bt(m,B.w,B.o,B.r))
 p.push(new A.aN(B.ld,new A.hq(i,j,i),i))}return A.baV(A.h3(p,B.bL,i,B.a6,!1),new A.aOB(r))},
@@ -52906,19 +52906,19 @@ else{s=t.p
 r=A.a([],s)
 for(q=B.vv.gd0(),q=q.ga8(q),p=k.e;q.v();){o=q.gL()
 n=A.a([],s)
-if(o==="app_min_build")B.b.M(n,A.a([B.aG,B.avF,B.avM,B.an],s))
+if(o==="app_min_build")B.b.M(n,A.a([B.aG,B.avG,B.avr,B.an],s))
 m=p.h(0,o)
 l=B.vv.h(0,o)
 if(B.c.iM(o,"number"))o=B.iz
 else o=B.c.bT(o,"app_download")?B.aqy:B.Uc
 n.push(A.hb(!0,B.b3,!1,j,!0,B.x,j,A.hK(),m,j,j,j,j,j,2,new A.dY(j,j,j,l,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j),B.T,!0,j,!0,j,!1,j,B.b8,j,j,j,o,j,j,j,1,j,j,!1,"\u2022",j,j,j,j,j,!1,j,j,!1,j,!0,j,B.bj,j,j,B.b0,B.aV,j,j,j,j,j,j,j,!0,B.ao,j,B.bo,j,j,j,j))
 n.push(B.an)
-B.b.M(r,n)}r.push(new A.a2A(k.d,new A.aWW(k),B.awg,B.avw,B.a7,j))
+B.b.M(r,n)}r.push(new A.a2A(k.d,new A.aWW(k),B.awf,B.avx,B.a7,j))
 r.push(B.an)
 r.push(A.uV(j,"Enregistrer",k.r,k.gawu()))
 r.push(B.apq)
-r.push(B.avH)
-r.push(B.avE)
+r.push(B.avI)
+r.push(B.avF)
 r.push(B.aG)
 r.push(A.mr(B.a3g,B.Uu,k.gaw4(),j))
 r.push(B.f5)
@@ -52994,7 +52994,7 @@ return null},
 $S:0}
 A.BA.prototype={
 E(a){var s=null,r=t.p
-return A.fp(s,B.k,A.bM(A.a([A.cg(A.cH(s,B.amM,B.v,s,s,B.Wx,s,s,s,s,s,s,1/0),1),new A.aN(B.a0W,A.bM(A.a([B.avs,B.aG,B.aww,B.d3,A.yC(!1,B.Us,s,s,s,s,s,s,new A.aJ5(a),s,s),B.an,A.b3N(!1,B.awQ,s,s,s,s,s,s,new A.aJ6(a),s,s)],r),B.aq,B.o,B.r),s)],r),B.w,B.o,B.r),s)}}
+return A.fp(s,B.k,A.bM(A.a([A.cg(A.cH(s,B.amM,B.v,s,s,B.Wx,s,s,s,s,s,s,1/0),1),new A.aN(B.a0W,A.bM(A.a([B.avt,B.aG,B.awv,B.d3,A.yC(!1,B.Us,s,s,s,s,s,s,new A.aJ5(a),s,s),B.an,A.b3N(!1,B.awP,s,s,s,s,s,s,new A.aJ6(a),s,s)],r),B.aq,B.o,B.r),s)],r),B.w,B.o,B.r),s)}}
 A.aJ5.prototype={
 $0(){return A.hS(this.a,"/register",t.X)},
 $S:0}
@@ -53046,7 +53046,7 @@ q=A.Ro()
 p=r!=null?A.kA(r):"\u2026"
 A.b18(s,q+" FENTIR, j'ai oubli\xe9 mon mot de passe. Mon num\xe9ro de compte : "+p)},
 E(a){var s=this,r=null,q=A.fT(r,r,r,r,B.axl),p=s.w
-return A.fp(q,r,A.li(!0,A.b3a(A.h3(A.a([B.avV,B.d3,new A.NR(s.e,r),B.bw,A.rp(s.f,A.WY(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Mot de passe",!0,r,r,r,r,r,r,r,r,A.jW(r,r,r,A.ey(p?B.Aw:B.Ax,r,r,r),r,r,new A.aRM(s),r,r,r,r),r,r,r,r),r,r,p,new A.aRN(s),B.bo,new A.aRO()),B.d3,A.uV(r,"Se connecter",s.r,s.gNt()),B.bw,A.a2M(B.AJ,B.axb,s.galN(),r),B.awt],t.p),B.zH,r,B.a6,!1),s.d),B.a7,!0),r)}}
+return A.fp(q,r,A.li(!0,A.b3a(A.h3(A.a([B.avV,B.d3,new A.NR(s.e,r),B.bw,A.rp(s.f,A.WY(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Mot de passe",!0,r,r,r,r,r,r,r,r,A.jW(r,r,r,A.ey(p?B.Aw:B.Ax,r,r,r),r,r,new A.aRM(s),r,r,r,r),r,r,r,r),r,r,p,new A.aRN(s),B.bo,new A.aRO()),B.d3,A.uV(r,"Se connecter",s.r,s.gNt()),B.bw,A.a2M(B.AJ,B.axb,s.galN(),r),B.aws],t.p),B.zH,r,B.a6,!1),s.d),B.a7,!0),r)}}
 A.aRJ.prototype={
 $0(){return this.a.r=!0},
 $S:0}
@@ -53126,7 +53126,7 @@ case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$mz,r)},
 E(a){var s=this,r=null,q=A.fT(r,r,r,r,B.Us),p=t.p,o=A.bt(A.a([A.cg(A.rp(s.e,B.AT,r,r,!1,r,B.wJ,new A.aVa()),1),B.iv,A.cg(A.rp(s.f,B.AU,r,r,!1,r,B.wJ,new A.aVb()),1)],p),B.w,B.o,B.r),n=s.Q
-return A.fp(q,r,A.li(!0,A.b3a(A.h3(A.a([B.axC,B.bw,o,B.bw,new A.NR(s.r,r),B.ake,B.bw,A.rp(s.w,A.WY(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Mot de passe (6 caract\xe8res minimum)",!0,r,r,r,r,r,r,r,r,A.jW(r,r,r,A.ey(n?B.Aw:B.Ax,r,r,r),r,r,new A.aVc(s),r,r,r,r),r,r,r,r),r,r,n,r,B.bo,new A.aVd()),B.bw,A.rp(s.x,B.a4o,r,r,s.Q,r,B.bo,new A.aVe(s)),B.an,A.b7z(B.a7,B.uF,new A.aVf(s),B.awY,s.z),B.bw,A.uV(r,"S'inscrire",s.y,s.gNt())],p),B.zH,r,B.a6,!1),s.d),B.a7,!0),r)}}
+return A.fp(q,r,A.li(!0,A.b3a(A.h3(A.a([B.axC,B.bw,o,B.bw,new A.NR(s.r,r),B.ake,B.bw,A.rp(s.w,A.WY(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Mot de passe (6 caract\xe8res minimum)",!0,r,r,r,r,r,r,r,r,A.jW(r,r,r,A.ey(n?B.Aw:B.Ax,r,r,r),r,r,new A.aVc(s),r,r,r,r),r,r,r,r),r,r,n,r,B.bo,new A.aVd()),B.bw,A.rp(s.x,B.a4o,r,r,s.Q,r,B.bo,new A.aVe(s)),B.an,A.b7z(B.a7,B.uF,new A.aVf(s),B.awX,s.z),B.bw,A.uV(r,"S'inscrire",s.y,s.gNt())],p),B.zH,r,B.a6,!1),s.d),B.a7,!0),r)}}
 A.aV6.prototype={
 $0(){return this.a.y=!0},
 $S:0}
@@ -53200,7 +53200,7 @@ s.push(B.bZ)
 s.push(B.aCy)
 B.b.M(m,s)}return A.b7Y(A.a([new A.JW(new A.a8D(p,o,q),q),new A.AO(B.bL,A.bbD(m),q)],n))},
 ahK(a){var s=null
-return A.ed(A.a([B.amJ,B.aG,B.awF,B.bZ,A.yC(!1,B.avA,s,s,s,s,s,s,new A.aNX(a),s,A.ns(s,s,B.C,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),s)}}
+return A.ed(A.a([B.amJ,B.aG,B.awE,B.bZ,A.yC(!1,B.avB,s,s,s,s,s,s,new A.aNX(a),s,A.ns(s,s,B.C,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),s)}}
 A.aO_.prototype={
 $1(a){var s,r=this.a
 if(r.c==null)return
@@ -53361,13 +53361,13 @@ j=A.ey(j,k?B.C:B.ap,m,28)
 s=A.a_(k?"Vous recevez des missions":"R\xe9ception en pause",m,m,m,m,B.aui,m,m)
 r=t.p
 s=A.cg(A.bM(A.a([s,A.a_(k?"Les colis qui collent \xe0 vos trajets vous seront propos\xe9s.":"Aucune mission ne vous sera propos\xe9e.",m,m,m,m,B.aC,m,m)],r),B.aq,B.o,B.r),1)
-j=A.ed(A.a([A.bt(A.a([j,B.iv,s,n.d?B.aps:A.bbK(B.C,m,m,!1,B.T,m,m,m,m,m,m,n.gaz3(),m,m,m,m,m,m,m,m,k)],r),B.w,B.o,B.r),B.bm,B.awv],r),m)
+j=A.ed(A.a([A.bt(A.a([j,B.iv,s,n.d?B.aps:A.bbK(B.C,m,m,!1,B.T,m,m,m,m,m,m,n.gaz3(),m,m,m,m,m,m,m,m,k)],r),B.w,B.o,B.r),B.bm,B.awu],r),m)
 s=A.ed(A.a([new A.Lb(l.cx,n.gawx(),m)],r),"Mes lieux fr\xe9quent\xe9s")
 q=B.d.aw(n.gL8(),1)
 q=A.a_(A.cl(q,".",",")+" km",m,m,m,m,B.c_,m,m)
 p=n.gL8()
 o=B.d.aw(n.gL8(),1)
-return A.bM(A.a([j,B.bZ,s,B.bZ,A.ed(A.a([q,new A.JU(p,new A.aV1(n),new A.aV2(a),1,4,6,A.cl(o,".",",")+" km",B.C,m),B.avG],r),"D\xe9tour maximal accept\xe9")],r),B.cG,B.o,B.r)}}
+return A.bM(A.a([j,B.bZ,s,B.bZ,A.ed(A.a([q,new A.JU(p,new A.aV1(n),new A.aV2(a),1,4,6,A.cl(o,".",",")+" km",B.C,m),B.avH],r),"D\xe9tour maximal accept\xe9")],r),B.cG,B.o,B.r)}}
 A.aUZ.prototype={
 $0(){return this.a.d=!0},
 $S:0}
@@ -53538,11 +53538,11 @@ n=$.eX()
 m=t.p
 o=A.a([A.bt(A.a([p,A.cg(k.a0P("Total gagn\xe9",n.c5(o)+" FCFA",B.C),1)],m),B.w,B.o,B.r)],m)
 k=s[0]
-if(k>0)B.b.M(o,A.a([B.jc,new A.dQ("En attente de versement",n.c5(k)+" FCFA",B.bs,!0,l),B.ax7],m))
+if(k>0)B.b.M(o,A.a([B.jc,new A.dQ("En attente de versement",n.c5(k)+" FCFA",B.bs,!0,l),B.ax6],m))
 k=J.aK(q)
 if(k.gcr(q)){p=A.a([B.jc],m)
 for(n=k.ga8(q);n.v();)p.push(new A.u5(n.gL(),l))
-if(s[1]>k.gG(q))p.push(A.dV(A.dB(!1,B.avt,l,l,l,l,l,l,new A.aOV(a),l,l),l,l))
+if(s[1]>k.gG(q))p.push(A.dV(A.dB(!1,B.avu,l,l,l,l,l,l,new A.aOV(a),l,l),l,l))
 B.b.M(o,p)}return A.ed(o,"Mes gains")},
 $S:397}
 A.aOV.prototype={
@@ -53574,7 +53574,7 @@ s=t.p
 r=A.a([],s)
 if(k&&b.c==null)r.push(B.bG)
 else{k=J.aK(l)
-if(k.gad(l))r.push(B.awr)
+if(k.gad(l))r.push(B.awq)
 else{s=A.a([],s)
 for(q=k.lr(l,5),p=q.$ti,q=new A.bs(q,q.gG(0),p.i("bs<at.E>")),o=this.a,p=p.i("at.E");q.v();){n=q.d
 s.push(o.Zh(a,n==null?p.a(n):n))}if(k.gG(l)>5)s.push(A.dB(!1,A.a_("Voir toutes mes missions ("+k.gG(l)+")",m,m,m,m,m,m,m),m,m,m,m,m,m,new A.aSv(o,a,l),m,m))
@@ -53585,7 +53585,7 @@ $0(){var s=t.z,r=A.Ho(new A.aSu(this.a,this.c),!1,null,s)
 return A.c5(this.b,!1).jN(r,s)},
 $S:0}
 A.aSu.prototype={
-$1(a){var s,r,q=null,p=A.fT(q,q,q,q,B.awc),o=A.a([],t.p)
+$1(a){var s,r,q=null,p=A.fT(q,q,q,q,B.awb),o=A.a([],t.p)
 for(s=J.b5(this.b),r=this.a;s.v();)o.push(r.Zh(a,s.gL()))
 return A.fp(p,q,A.h3(o,B.a0P,q,B.a6,!1),q)},
 $S:166}
@@ -53670,7 +53670,7 @@ $0(){return this.a.e=!0},
 $S:0}
 A.aTp.prototype={
 $1(a){var s=null,r=this.a,q=A.hb(!0,B.b3,!0,s,!0,B.x,s,A.hK(),r,s,s,s,s,s,2,B.a4i,B.T,!0,s,!0,s,!1,s,B.b8,s,s,s,B.iz,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bj,s,s,B.b0,B.aV,s,s,s,s,s,s,s,!0,B.ao,s,B.bo,s,s,s,s)
-return A.kF(A.a([A.dB(!1,B.f7,s,s,s,s,s,s,new A.aTn(a),s,s),A.dB(!1,B.Uv,s,s,s,s,s,s,new A.aTo(a,r),s,s)],t.p),q,s,B.avu)},
+return A.kF(A.a([A.dB(!1,B.f7,s,s,s,s,s,s,new A.aTn(a),s,s),A.dB(!1,B.Uv,s,s,s,s,s,s,new A.aTo(a,r),s,s)],t.p),q,s,B.avv)},
 $S:37}
 A.aTn.prototype={
 $0(){A.c5(this.a,!1).e0(null)
@@ -53791,8 +53791,8 @@ n=A.ns(j,j,B.at,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
 m=this.a
 l=m.d
 k=l?j:m.gahJ()
-o=A.a([B.amK,B.d4,o,B.bm,A.VK(l?B.wv:B.uy,B.awW,k,n)],t.p)
-if(s)o.push(A.dB(!1,B.awh,j,j,j,j,j,j,m.gamU(),j,j))
+o=A.a([B.amK,B.d4,o,B.bm,A.VK(l?B.wv:B.uy,B.awV,k,n)],t.p)
+if(s)o.push(A.dB(!1,B.awg,j,j,j,j,j,j,m.gamU(),j,j))
 return new A.aN(B.zD,A.cH(j,A.bM(o,B.cG,B.o,B.r),B.v,j,j,new A.cu(r,j,q,p,j,j,B.aw),j,j,j,B.u8,j,j,j),j)},
 $S:660}
 A.yv.prototype={
@@ -53843,9 +53843,9 @@ E(a){var s=null,r=this.c,q=A.a([A.a_(r.y,s,s,s,s,B.iA,s,s)],t.p)
 r=r.CW
 if(r!=null)q.push(new A.N8(r,s))
 q.push(B.bm)
-q.push(A.mr(B.uz,B.awS,new A.aTK(this),s))
+q.push(A.mr(B.uz,B.awR,new A.aTK(this),s))
 q.push(B.bm)
-q.push(B.aw9)
+q.push(B.aw8)
 q.push(B.bm)
 q.push(A.VK(B.a3v,B.Uw,new A.aTL(this,a),A.ns(s,s,B.C,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)))
 return A.ed(q,"\xc9tape 1 \u2014 R\xe9cup\xe9rer le colis")}}
@@ -53861,11 +53861,11 @@ E(a){var s=null,r=this.c,q=A.a([A.a_(r.z,s,s,s,s,B.iA,s,s)],t.p),p=r.cx
 if(p!=null)q.push(new A.N8(p,s))
 q.push(A.a_(r.Q+" \xb7 "+A.kA(r.as),s,s,s,s,B.dR,s,s))
 q.push(B.bm)
-q.push(A.mr(B.uz,B.axa,new A.aNI(this),s))
+q.push(A.mr(B.uz,B.ax9,new A.aNI(this),s))
 q.push(B.bm)
 q.push(B.axz)
 q.push(B.bm)
-q.push(A.VK(B.a3u,B.awj,new A.aNJ(this,a),s))
+q.push(A.VK(B.a3u,B.awi,new A.aNJ(this,a),s))
 return A.ed(q,"\xc9tape 2 \u2014 Livrer le colis")}}
 A.aNI.prototype={
 $0(){var s=this.a.c
@@ -53888,7 +53888,7 @@ n.push(A.h2(!1,B.a7,p,p,!0,p,p,!0,!1,B.AH,p,p,p,!1,p,p,p,q,p,s,r==null?p:A.jW(p,
 r=s.c
 q=A.a_(r.Q+" (destinataire)",p,p,p,p,p,p,p)
 n.push(A.h2(!1,B.a7,p,p,!0,p,p,!0,!1,B.a2Z,p,p,p,!1,p,p,p,A.a_(A.kA(r.as),p,p,p,p,p,p,p),p,q,A.jW(p,p,p,B.AM,p,p,new A.aM3(s),p,p,p,p),p))
-n.push(A.mr(B.AN,B.awX,new A.aM4(s,a),p))
+n.push(A.mr(B.AN,B.awW,new A.aM4(s,a),p))
 return A.ed(n,"Contacts")},
 $S:755}
 A.aM2.prototype={
@@ -54037,7 +54037,7 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$pf,r)},
-E(a){var s,r,q,p,o=this,n=null,m=A.fT(n,n,n,n,B.aw5),l=t.p,k=A.a([B.awU,B.aG,B.ax3],l)
+E(a){var s,r,q,p,o=this,n=null,m=A.fT(n,n,n,n,B.aw5),l=t.p,k=A.a([B.awT,B.aG,B.ax2],l)
 if(o.at!=null){s=B.at.kI(0.08)
 r=A.cX(10)
 B.b.M(k,A.a([B.bw,A.cH(n,A.a_("Vos documents ont \xe9t\xe9 refus\xe9s : "+A.l(o.at)+". Renvoyez-les ci-dessous.",n,n,n,n,B.Ue,n,n),B.v,n,n,new A.cu(s,n,n,r,n,n,B.aw),n,n,n,B.jh,n,n,n)],l))}k.push(B.d3)
@@ -54049,12 +54049,12 @@ s.push(A.SS(A.ey(p.b,n,n,18),A.a_(p.a,n,n,n,n,n,n,n),new A.aOf(o,q),o.d===q.a,B.
 if(o.d!=="velo")B.b.M(k,A.a([B.bw,A.hb(!0,B.b3,!1,n,!0,B.x,n,A.hK(),o.e,n,n,n,n,n,2,B.a4t,B.T,!0,n,!0,n,!1,n,B.b8,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,n,!1,n,!0,n,B.bj,n,n,B.b0,B.aV,n,n,n,n,n,n,n,!0,B.ao,n,B.aqi,n,n,n,n)],l))
 k.push(B.d3)
 k.push(B.an2)
-k.push(B.ax5)
+k.push(B.ax4)
 k.push(B.bm)
 k.push(new A.Lb(o.z,new A.aOg(o),n))
 k.push(B.d3)
 k.push(B.an_)
-k.push(B.awd)
+k.push(B.awc)
 k.push(B.bm)
 k.push(A.bt(A.a([A.cg(A.I8(130,n,"CNIB recto",new A.aOh(o),o.r,!0,!1),1),B.cj,A.cg(A.I8(130,n,"CNIB verso",new A.aOi(o),o.w,!0,!1),1)],l),B.w,B.o,B.r))
 k.push(B.bm)
@@ -54069,7 +54069,7 @@ k.push(A.hb(!0,B.b3,!1,n,!0,B.x,n,A.hK(),o.f,n,n,n,n,n,2,B.a4q,B.T,!0,n,!0,n,!1,
 k.push(B.d3)
 k.push(B.a49)
 k.push(B.an)
-k.push(A.b7z(B.a7,B.uF,new A.aOl(o),B.awA,o.Q))
+k.push(A.b7z(B.a7,B.uF,new A.aOl(o),B.awz,o.Q))
 k.push(B.an)
 k.push(A.uV(B.C,"Envoyer mon inscription",o.as,o.gakI()))
 k.push(B.f5)
@@ -54310,8 +54310,8 @@ n.toString
 A.c5(n,!1).e0(m)
 case 1:return A.p(q,r)}})
 return A.q($async$Ef,r)},
-E(a){var s=null,r=A.a_(this.a.c?"Recevez les propositions de colis m\xeame quand FENTIR est ferm\xe9, et suivez vos livraisons.":"Soyez pr\xe9venu quand votre colis est pris en charge et quand il est livr\xe9, m\xeame quand FENTIR est ferm\xe9.",s,s,s,s,s,s,s),q=this.d,p=A.dB(!1,B.awb,s,s,s,s,s,s,q?s:new A.aJC(a),s,s),o=q?s:this.gaqW()
-return A.kF(A.a([p,A.b8O(!1,q?B.wv:B.awp,B.v,s,s,s,s,s,o,s,s)],t.p),r,B.a3l,B.axn)}}
+E(a){var s=null,r=A.a_(this.a.c?"Recevez les propositions de colis m\xeame quand FENTIR est ferm\xe9, et suivez vos livraisons.":"Soyez pr\xe9venu quand votre colis est pris en charge et quand il est livr\xe9, m\xeame quand FENTIR est ferm\xe9.",s,s,s,s,s,s,s),q=this.d,p=A.dB(!1,B.awa,s,s,s,s,s,s,q?s:new A.aJC(a),s,s),o=q?s:this.gaqW()
+return A.kF(A.a([p,A.b8O(!1,q?B.wv:B.awo,B.v,s,s,s,s,s,o,s,s)],t.p),r,B.a3l,B.axn)}}
 A.aJB.prototype={
 $0(){return this.a.d=!0},
 $S:0}
@@ -54433,10 +54433,10 @@ s=A.a([A.a_(k,q,q,q,q,A.e5(q,q,s,q,q,q,q,q,q,q,q,14,q,q,n?B.J:B.cI,q,q,!0,q,q,q,
 if((n?q:b.c)!=null)s.push(A.a_("Rep\xe8re : "+A.l(b.c),q,q,q,q,B.aC,q,q))
 k=A.cg(A.bM(s,B.aq,B.o,B.r),1)
 return A.jZ(!1,p,!0,A.cH(q,A.bt(A.a([l,B.cj,k,A.ey(n?B.us:B.AD,B.ap,q,q)],r),B.w,B.o,B.r),B.v,q,q,new A.cu(B.k,q,m,o,q,q,B.aw),q,q,q,B.u8,q,q,q),q,!0,q,q,q,q,q,q,q,q,q,d,q,q,q,q,q,q,q)},
-E(a){var s,r,q,p,o=this,n=null,m=A.fT(n,n,n,n,B.ax8),l=t.p,k=A.a([],l)
+E(a){var s,r,q,p,o=this,n=null,m=A.fT(n,n,n,n,B.ax7),l=t.p,k=A.a([],l)
 for(s=B.NP.gfg(),s=s.ga8(s);s.v();){r=s.gL()
 q=r.b
-k.push(A.SS(A.ey(q.b,n,n,18),A.a_(q.a,n,n,n,n,n,n,n),new A.aMh(o,r),o.w===r.a,B.cV))}k=A.a([B.anf,A.oL(k,8,8),B.aG,A.oL(A.a([A.b8Q(B.a32,B.avD,new A.aMi(o),o.x,B.cV),A.b8Q(B.a3C,B.avK,new A.aMj(o),o.y,B.cV)],l),8,8),B.an,A.I8(150,"Conseill\xe9e : le livreur voit la taille du colis","Photo du colis",new A.aMk(o),o.as,!1,!1),B.an,A.rp(o.e,B.a4k,n,200,!1,n,B.bo,n),B.an1,o.a_b("O\xf9 le livreur doit-il r\xe9cup\xe9rer le colis ?",o.z,B.C,new A.aMl(o)),B.f5,B.an8,A.rp(o.f,B.a4h,n,n,!1,n,B.wJ,new A.aMm()),B.an,A.rp(o.r,B.a4v,B.iz,n,!1,n,B.bo,new A.aMn()),new A.dT(B.fg,n,n,A.a2M(B.AJ,B.awV,new A.aMo(o,a),A.b4l(n,n,n,n,n,n,n,n,n,B.C,n,n,n,n,n,n,n,n,n)),n),B.f6,o.a_b("O\xf9 faut-il livrer ?",o.Q,B.a2,new A.aMp(o)),B.akg],l)
+k.push(A.SS(A.ey(q.b,n,n,18),A.a_(q.a,n,n,n,n,n,n,n),new A.aMh(o,r),o.w===r.a,B.cV))}k=A.a([B.anf,A.oL(k,8,8),B.aG,A.oL(A.a([A.b8Q(B.a32,B.avE,new A.aMi(o),o.x,B.cV),A.b8Q(B.a3C,B.avL,new A.aMj(o),o.y,B.cV)],l),8,8),B.an,A.I8(150,"Conseill\xe9e : le livreur voit la taille du colis","Photo du colis",new A.aMk(o),o.as,!1,!1),B.an,A.rp(o.e,B.a4k,n,200,!1,n,B.bo,n),B.an1,o.a_b("O\xf9 le livreur doit-il r\xe9cup\xe9rer le colis ?",o.z,B.C,new A.aMl(o)),B.f5,B.an8,A.rp(o.f,B.a4h,n,n,!1,n,B.wJ,new A.aMm()),B.an,A.rp(o.r,B.a4v,B.iz,n,!1,n,B.bo,new A.aMn()),new A.dT(B.fg,n,n,A.a2M(B.AJ,B.awU,new A.aMo(o,a),A.b4l(n,n,n,n,n,n,n,n,n,B.C,n,n,n,n,n,n,n,n,n)),n),B.f6,o.a_b("O\xf9 faut-il livrer ?",o.Q,B.a2,new A.aMp(o)),B.akg],l)
 s=o.z
 if(s!=null&&o.Q!=null){s=s.b
 s=A.a([B.f5,B.anb,A.aw4(o.Q.b,180,s),B.an],l)
@@ -54449,7 +54449,7 @@ p=o.at.b
 s.push(A.cH(n,A.bt(A.a([r,A.a_($.eX().c5(p)+" FCFA",n,n,n,n,B.wQ,n,n)],l),B.w,B.o,B.r),B.v,n,n,new A.cu(B.cV,n,n,q,n,n,B.aw),n,n,n,B.bL,n,n,n))}B.b.M(k,s)}k.push(B.d3)
 k.push(A.uV(n,"Confirmer et payer",o.ay,o.gajO()))
 k.push(B.aG)
-k.push(B.awT)
+k.push(B.awS)
 k.push(B.d3)
 return A.fp(m,n,A.b3a(A.h3(k,B.bL,n,B.a6,!1),o.d),n)}}
 A.aM8.prototype={
@@ -54539,7 +54539,7 @@ break $label0$0}if("delivered"===p){s=A.a([new A.M7(b,q)],t.p)
 break $label0$0}if("expired"===p){s=t.p
 r=A.a([],s)
 if(b.f==="done")r.push(new A.Oe(b,q))
-else r.push(A.ed(A.a([B.awl,B.d4,A.a_(b.x?"Peu de livreurs sur ce trajet en ce moment : essayez de relancer \xe0 une autre heure, ou annulez pour \xeatre rembours\xe9.":"Personne n'est pass\xe9 sur votre trajet pour l'instant. Vous pouvez relancer la recherche sans repayer, ou annuler pour \xeatre rembours\xe9.",q,q,q,q,B.dR,q,q),B.bZ,A.bm3(B.a30,B.axj,new A.aw8(this,a,b),A.bm4(B.TK)),B.aG,A.mr(B.AI,B.awn,new A.aw9(this,a,b),q)],s),q))
+else r.push(A.ed(A.a([B.awk,B.d4,A.a_(b.x?"Peu de livreurs sur ce trajet en ce moment : essayez de relancer \xe0 une autre heure, ou annulez pour \xeatre rembours\xe9.":"Personne n'est pass\xe9 sur votre trajet pour l'instant. Vous pouvez relancer la recherche sans repayer, ou annuler pour \xeatre rembours\xe9.",q,q,q,q,B.dR,q,q),B.bZ,A.bm3(B.a30,B.axj,new A.aw8(this,a,b),A.bm4(B.TK)),B.aG,A.mr(B.AI,B.awm,new A.aw9(this,a,b),q)],s),q))
 s=r
 break $label0$0}if("cancelled"===p){s=A.a([],t.p)
 if(b.f!=="none")s.push(new A.Oe(b,q))
@@ -54625,7 +54625,7 @@ p=i.k2
 p=A.ew("dd/MM/yyyy HH:mm",j).c5(p.h2())
 k.push(new A.dQ("Cr\xe9\xe9e le",p,j,!1,j))
 s.push(A.ed(k,"D\xe9tails"))
-if(B.anN.n(0,q))B.b.M(s,A.a([B.bw,A.a2M(B.AI,B.awP,new A.awa(r,a,i),j)],h))
+if(B.anN.n(0,q))B.b.M(s,A.a([B.bw,A.a2M(B.AI,B.awO,new A.awa(r,a,i),j)],h))
 s.push(B.d3)
 h=A.h3(s,B.bL,j,B.a6,!1)}return A.fp(g,j,h,j)},
 $S:167}
@@ -54643,7 +54643,7 @@ $1(a){var s=null,r=this.a.d
 if(r==="awaiting_payment")r="La mission sera supprim\xe9e de vos envois en cours."
 else r=r==="expired"?"L'\xe9quipe FENTIR vous rembourse sur Orange Money.":"Si vous avez d\xe9j\xe0 pay\xe9, l'\xe9quipe FENTIR vous rembourse sur Orange Money."
 r=A.a_(r,s,s,s,s,s,s,s)
-return A.kF(A.a([A.dB(!1,B.Ut,s,s,s,s,s,s,new A.aw5(a),s,s),A.dB(!1,B.axq,s,s,s,s,s,s,new A.aw6(a),s,s)],t.p),r,s,B.aws)},
+return A.kF(A.a([A.dB(!1,B.Ut,s,s,s,s,s,s,new A.aw5(a),s,s),A.dB(!1,B.axq,s,s,s,s,s,s,new A.aw6(a),s,s)],t.p),r,s,B.awr)},
 $S:37}
 A.aw5.prototype={
 $0(){A.c5(this.a,!1).e0(!1)
@@ -54721,7 +54721,7 @@ p.push(A.bt(A.a([B.a1t,A.a_(n.c5(o)+" FCFA",l,l,l,l,B.wQ,l,l)],q),B.w,B.o,B.r))
 p.push(B.jc)
 p.push(new A.CS(1,"Payez "+(n.c5(o)+" FCFA")+" par Orange Money : appuyez sur le bouton, puis saisissez votre code secret.",l))
 p.push(new A.aN(B.a1_,A.mr(B.a3x,A.a_("Payer "+(n.c5(o)+" FCFA")+" avec Orange Money",l,l,l,l,l,l,l),new A.aTb(r,k),A.zI(l,l,l,l,l,l,l,l,l,B.tL,l,l,l,l,l,B.Wb,l,l,l,l)),l))
-p.push(new A.aN(B.zI,A.bt(A.a([A.cg(A.a_("Ou composez *144*10*"+r+"*"+o+"#",l,l,l,l,B.aC,l,l),1),A.a2M(B.a3p,B.awE,new A.aTc(m,r,k),l)],q),B.w,B.o,B.r),l))
+p.push(new A.aN(B.zI,A.bt(A.a([A.cg(A.a_("Ou composez *144*10*"+r+"*"+o+"#",l,l,l,l,B.aC,l,l),1),A.a2M(B.a3p,B.awD,new A.aTc(m,r,k),l)],q),B.w,B.o,B.r),l))
 p.push(B.aCQ)
 p.push(new A.aN(B.zI,A.I8(140,"Appuyez pour choisir la capture dans la galerie","Capture du paiement",new A.aTd(m),m.f,!1,!1),l))
 p.push(B.aCP)
@@ -54873,7 +54873,7 @@ q=t.p
 p=A.a([],q)
 o=this.a
 n=o.c
-if(n.d==="accepted")p.push(A.ed(A.a([B.awe,B.an,A.dV(new A.Is("FENTIR:"+n.b+":"+s,190,m),m,m),A.dV(A.a_("Code : "+s,m,m,m,m,B.asa,m,m),m,m)],q),"Remise du colis au livreur"))
+if(n.d==="accepted")p.push(A.ed(A.a([B.awd,B.an,A.dV(new A.Is("FENTIR:"+n.b+":"+s,190,m),m,m),A.dV(A.a_("Code : "+s,m,m,m,m,B.asa,m,m),m,m)],q),"Remise du colis au livreur"))
 p.push(B.bZ)
 p.push(A.ed(A.a([A.a_("Transmettez ce code \xe0 "+n.Q+". Il le donnera au livreur \xe0 la r\xe9ception : c'est ce qui confirme la livraison.",m,m,m,m,B.wR,m,m),B.bm,A.dV(A.a_(r,m,m,m,m,B.aul,m,m),m,m),B.bm,A.VK(B.a3t,B.avP,new A.aLW(l,o),A.ns(m,m,B.C,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))],q),"Code de livraison (pour le destinataire)"))
 return A.bM(p,B.w,B.o,B.r)},
@@ -54977,7 +54977,7 @@ if(o!==0){l=A.a([B.an7],m)
 for(k=0;k<o;++k)l.push(new A.qA(q[k],h))
 B.b.M(n,l)}if(p.length!==0){o=A.a([B.an,B.anc],m)
 for(l=A.hy(p,0,A.ij(3,"count",t.S),A.aa(p).c),j=l.$ti,l=new A.bs(l,l.gG(0),j.i("bs<at.E>")),j=j.i("at.E");l.v();){i=l.d
-o.push(new A.qA(i==null?j.a(i):i,h))}o.push(A.dV(A.a2M(B.a3b,B.ax4,new A.aEU(a),h),h,h))
+o.push(new A.qA(i==null?j.a(i):i,h))}o.push(A.dV(A.a2M(B.a3b,B.ax3,new A.aEU(a),h),h,h))
 B.b.M(n,o)}if(!f&&s.gad(g))n.push(B.a1c)
 f=b.c
 if(f!=null)n.push(new A.hn(B.Ay,"Connexion impossible",A.ag4(f),h))
@@ -55044,7 +55044,7 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$Dq,r)},
-E(a){var s=this,r=null,q=A.fT(r,r,r,r,B.awM),p=A.cg(A.mC(new A.aLB(),A.bjV(s.a.c),t.CV),1),o=A.cg(A.hb(!0,B.b3,!1,r,!0,B.x,r,A.hK(),s.d,r,r,r,r,r,2,B.a4g,B.T,!0,r,!0,r,!1,r,B.b8,r,r,r,r,r,r,r,4,1,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.bj,r,r,B.b0,B.aV,r,r,r,r,r,r,r,!0,B.ao,r,B.U3,r,r,r,r),1),n=s.e?r:s.gaiB(),m=t.p
+E(a){var s=this,r=null,q=A.fT(r,r,r,r,B.awL),p=A.cg(A.mC(new A.aLB(),A.bjV(s.a.c),t.CV),1),o=A.cg(A.hb(!0,B.b3,!1,r,!0,B.x,r,A.hK(),s.d,r,r,r,r,r,2,B.a4g,B.T,!0,r,!0,r,!1,r,B.b8,r,r,r,r,r,r,r,4,1,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.bj,r,r,B.b0,B.aV,r,r,r,r,r,r,r,!0,B.ao,r,B.U3,r,r,r,r),1),n=s.e?r:s.gaiB(),m=t.p
 return A.fp(q,r,A.bM(A.a([p,A.li(!0,new A.aN(B.a0E,A.bt(A.a([o,B.iw,new A.uz(r,r,r,B.a3s,r,n,r,r,r,A.uA(r,B.a2,r,r,r,r,r,r,r,r,r,r,r,r,r),B.aBT,r)],m),B.w,B.o,B.r),r),B.a7,!1)],m),B.w,B.o,B.r),r)}}
 A.aLy.prototype={
 $0(){return this.a.e=!0},
@@ -55142,7 +55142,7 @@ $S:40}
 A.w5.prototype={
 a6(){return new A.acD()}}
 A.acD.prototype={
-E(a){var s,r,q=this,p=null,o=A.fT(p,p,p,p,B.avz),n=q.d,m=A.a([],t.p)
+E(a){var s,r,q=this,p=null,o=A.fT(p,p,p,p,B.avA),n=q.d,m=A.a([],t.p)
 for(s=B.aeW.gfg(),s=s.ga8(s);s.v();){r=s.gL()
 m.push(A.SS(p,A.a_(r.b,p,p,p,p,p,p,p),new A.aWM(q,r),q.d===r.a,B.cV))}return A.fp(o,p,new A.o_(new A.aWN(q),20,new A.aWO(),B.a19,new A.aN(B.u4,A.oL(m,0,8),p),new A.cL(n,t.kK),t.xt),p)}}
 A.aWN.prototype={
@@ -55160,7 +55160,7 @@ $2(a,b){return new A.qA(b,null)},
 $S:368}
 A.yu.prototype={
 E(a){var s=null
-return A.fp(A.fT(s,s,s,s,B.ax0),s,new A.o_(new A.akS(),20,new A.akT(),B.a1a,A.jT(new A.akU(),A.VF(),t._i),s,t.xt),s)}}
+return A.fp(A.fT(s,s,s,s,B.ax_),s,new A.o_(new A.akS(),20,new A.akT(),B.a1a,A.jT(new A.akU(),A.VF(),t._i),s,t.xt),s)}}
 A.akS.prototype={
 $1(a){return A.VE(20,a)},
 $S:171}
@@ -55187,10 +55187,10 @@ q=t.p
 return new A.aN(B.u7,A.bt(A.a([A.cg(A.bM(A.a([m,A.a_(r,p,p,p,p,A.e5(p,p,s?B.C:B.bs,p,p,p,p,p,p,p,p,12,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],q),B.aq,B.o,B.r),1),A.a_("+"+($.eX().c5(n.id)+" FCFA"),p,p,p,p,B.ary,p,p)],q),B.w,B.o,B.r),p)}}
 A.a_2.prototype={
 E(a){var s=null
-return A.fp(A.fT(A.a([A.jW(s,s,s,B.a3y,s,s,new A.axF(a),s,s,s,"Tout effacer")],t.p),s,s,s,B.awD),s,A.mC(new A.axG(),A.bak(),t.b5),s)}}
+return A.fp(A.fT(A.a([A.jW(s,s,s,B.a3y,s,s,new A.axF(a),s,s,s,"Tout effacer")],t.p),s,s,s,B.awC),s,A.mC(new A.axG(),A.bak(),t.b5),s)}}
 A.axA.prototype={
 $1(a){var s=null
-return A.kF(A.a([A.dB(!1,B.f7,s,s,s,s,s,s,new A.axy(a),s,s),A.dB(!1,B.awJ,s,s,s,s,s,s,new A.axz(a),s,s)],t.p),B.avJ,s,B.awR)},
+return A.kF(A.a([A.dB(!1,B.f7,s,s,s,s,s,s,new A.axy(a),s,s),A.dB(!1,B.awI,s,s,s,s,s,s,new A.axz(a),s,s)],t.p),B.avK,s,B.awQ)},
 $S:37}
 A.axy.prototype={
 $0(){A.c5(this.a,!1).e0(!1)
@@ -55207,7 +55207,7 @@ A.axG.prototype={
 $2(a,b){var s,r=b.b
 if(r==null)return B.bG
 s=J.aK(r)
-if(s.gad(r))return B.YA
+if(s.gad(r))return B.YB
 return A.bnk(new A.axD(r),s.gG(r),B.jg,new A.axE())},
 $S:282}
 A.axE.prototype={
@@ -55281,12 +55281,12 @@ s=n.e
 if(s)q.push(B.ak7)
 r=A.ed(A.a([A.bt(A.a([r,B.TL,A.cg(A.bM(q,B.aq,B.o,B.r),1),A.jW(o,o,o,B.a3w,o,o,new A.azj(this,a),o,o,o,o)],p),B.w,B.o,B.r)],p),o)
 q=A.a([],p)
-if(n.f)q.push(A.h2(!1,o,o,o,!0,o,o,!0,!1,B.a3c,o,o,new A.azk(a),!1,o,o,o,B.avr,o,B.avI,B.ux,o))
-if(!s)q.push(A.h2(!1,o,o,o,!0,o,o,!0,!1,B.a3e,o,o,new A.azl(a),!1,o,o,o,o,o,B.awL,B.ux,o))
+if(n.f)q.push(A.h2(!1,o,o,o,!0,o,o,!0,!1,B.a3c,o,o,new A.azk(a),!1,o,o,o,B.avs,o,B.avJ,B.ux,o))
+if(!s)q.push(A.h2(!1,o,o,o,!0,o,o,!0,!1,B.a3e,o,o,new A.azl(a),!1,o,o,o,o,o,B.awK,B.ux,o))
 q.push(B.aCs)
 q.push(A.jT(new A.azm(),A.JI(),t.GU))
-q.push(A.h2(!1,o,o,o,!0,o,o,!0,!1,B.a3G,o,o,new A.azn(a),!1,o,o,o,o,o,B.awx,o,o))
-s=A.h3(A.a([r,B.bw,A.na(A.bM(q,B.w,B.o,B.r),o,o,o),B.d3,B.YB],p),B.bL,o,B.a6,!1)}return A.fp(m,o,s,o)}}
+q.push(A.h2(!1,o,o,o,!0,o,o,!0,!1,B.a3G,o,o,new A.azn(a),!1,o,o,o,o,o,B.aww,o,o))
+s=A.h3(A.a([r,B.bw,A.na(A.bM(q,B.w,B.o,B.r),o,o,o),B.d3,B.YA],p),B.bL,o,B.a6,!1)}return A.fp(m,o,s,o)}}
 A.azh.prototype={
 $1(a){var s=null,r=t.p,q=A.bM(A.a([A.hb(!0,B.b3,!1,s,!0,B.x,s,A.hK(),this.a,s,s,s,s,s,2,B.AT,B.T,!0,s,!0,s,!1,s,B.b8,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bj,s,s,B.b0,B.aV,s,s,s,s,s,s,s,!0,B.ao,s,B.bo,s,s,s,s),B.an,A.hb(!0,B.b3,!1,s,!0,B.x,s,A.hK(),this.b,s,s,s,s,s,2,B.AU,B.T,!0,s,!0,s,!1,s,B.b8,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bj,s,s,B.b0,B.aV,s,s,s,s,s,s,s,!0,B.ao,s,B.bo,s,s,s,s)],r),B.w,B.o,B.aW)
 return A.kF(A.a([A.dB(!1,B.f7,s,s,s,s,s,s,new A.azf(a),s,s),A.dB(!1,B.Uv,s,s,s,s,s,s,new A.azg(a),s,s)],r),q,s,B.axs)},
@@ -55311,7 +55311,7 @@ $S:0}
 A.azm.prototype={
 $2(a,b){var s=null,r=b.b,q=r==null?s:J.bI(r,"whatsapp_number")
 if(q==null)q=""
-return A.h2(!1,s,s,s,q.length!==0,s,s,!0,!1,B.a3B,s,s,new A.azi(q),!1,s,s,s,B.awf,s,B.avW,s,s)},
+return A.h2(!1,s,s,s,q.length!==0,s,s,!0,!1,B.a3B,s,s,new A.azi(q),!1,s,s,s,B.awe,s,B.avW,s,s)},
 $S:401}
 A.azi.prototype={
 $0(){return A.b18(this.a,A.Ro()+" FENTIR, ")},
@@ -55556,7 +55556,7 @@ E(a){var s,r,q=this,p=null,o=A.bD(B.Xs,q.gLo(),p),n=q.a.c,m=new A.aD(A.bD(B.a4z,
 n=A.a_J(0,A.jX(A.fS(q.gKU(),new A.aLs(q),p),!0,p))
 s=A.cX(24)
 r=t.p
-return A.f7(B.bF,A.a([n,A.dV(A.fm(B.U,!0,p,A.cH(p,A.bM(A.a([A.aDp(A.fS(q.gyU(),new A.aLt(q),B.a3E),o),B.f5,B.avy,B.d4,B.axd,B.bw,A.fS(m,new A.aLu(m),p),B.avZ,B.f5,A.yC(!1,B.awi,p,p,p,p,p,p,new A.aLv(a),p,p)],r),B.w,B.o,B.aW),B.v,p,p,new A.cu(B.k,p,p,s,p,p,B.aw),p,p,B.a0Y,B.a0V,p,p,p),B.v,B.E,0,p,p,p,p,p,B.cM),p,p)],r),B.x,B.bn,p)}}
+return A.f7(B.bF,A.a([n,A.dV(A.fm(B.U,!0,p,A.cH(p,A.bM(A.a([A.aDp(A.fS(q.gyU(),new A.aLt(q),B.a3E),o),B.f5,B.avz,B.d4,B.axd,B.bw,A.fS(m,new A.aLu(m),p),B.avZ,B.f5,A.yC(!1,B.awh,p,p,p,p,p,p,new A.aLv(a),p,p)],r),B.w,B.o,B.aW),B.v,p,p,new A.cu(B.k,p,p,s,p,p,B.aw),p,p,B.a0Y,B.a0V,p,p,p),B.v,B.E,0,p,p,p,p,p,B.cM),p,p)],r),B.x,B.bn,p)}}
 A.aLs.prototype={
 $2(a,b){var s=null,r=this.a,q=r.gKU().x
 q===$&&A.b()
@@ -55855,15 +55855,15 @@ n=o?j:k.gamR()
 s=A.a([new A.q_(r,s,k.d,j),q,p,A.k9(12,A.b8U(B.k,B.a2,"gps",o?B.apo:B.uy,B.avY,n),j,j,j,12,j,j)],h)
 if(k.a.w){r=k.as
 q=r?j:k.gar1()
-s.push(A.k9(12,A.b8U(B.C,B.k,"import",r?B.wv:B.a33,B.Ux,q),j,j,12,j,j,j))}if(k.at!=null)s.push(A.k9(76,A.fm(B.U,!0,A.cX(12),new A.aN(B.a0H,A.bt(A.a([B.a2U,B.cj,B.a1x,A.dB(!1,B.Ut,j,j,j,j,j,j,new A.aU6(k),j,j),A.dB(!1,B.awu,j,j,j,j,j,j,new A.aU7(k),j,j)],h),B.w,B.o,B.r),j),B.v,B.zc,4,j,j,j,j,j,B.cM),j,j,12,12,j,j))
+s.push(A.k9(12,A.b8U(B.C,B.k,"import",r?B.wv:B.a33,B.Ux,q),j,j,12,j,j,j))}if(k.at!=null)s.push(A.k9(76,A.fm(B.U,!0,A.cX(12),new A.aN(B.a0H,A.bt(A.a([B.a2U,B.cj,B.a1x,A.dB(!1,B.Ut,j,j,j,j,j,j,new A.aU6(k),j,j),A.dB(!1,B.awt,j,j,j,j,j,j,new A.aU7(k),j,j)],h),B.w,B.o,B.r),j),B.v,B.zc,4,j,j,j,j,j,B.cM),j,j,12,12,j,j))
 s=A.cg(A.f7(B.bF,s,B.x,B.bn,j),1)
 if(k.Q||k.z)r="Recherche du nom du lieu\u2026"
 else{r=k.w
-if(r==null)r="\u2014"}r=A.a([B.awo,B.d4,A.bt(A.a([B.a3d,B.wu,A.cg(A.a_(r,2,B.be,j,j,B.Ug,j,j),1)],h),B.w,B.o,B.r)],h)
+if(r==null)r="\u2014"}r=A.a([B.awn,B.d4,A.bt(A.a([B.a3d,B.wu,A.cg(A.a_(r,2,B.be,j,j,B.Ug,j,j),1)],h),B.w,B.o,B.r)],h)
 q=k.a
 if(q.x)B.b.M(r,A.a([B.bm,A.hb(!0,B.b3,!1,j,!0,B.x,j,A.hK(),k.f,j,j,j,j,j,2,A.WY(j,j,j,j,j,j,"",j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,q.r,j,j,j,j,j,j,j,j,"Rep\xe8re (facultatif)",!0,j,B.a31,j,j,j,j,j,j,j,j,j,j,j),B.T,!0,j,!0,j,!1,j,B.b8,j,j,j,j,j,120,j,1,j,j,!1,"\u2022",j,j,j,j,j,!1,j,j,!1,j,!0,j,B.bj,j,j,B.b0,B.aV,j,j,j,j,j,j,j,!0,B.ao,j,B.U3,j,j,j,j)],h))
 r.push(B.bm)
-r.push(A.yC(!1,B.awz,j,j,j,j,j,j,k.Q?j:k.garY(),j,j))
+r.push(A.yC(!1,B.awy,j,j,j,j,j,j,k.Q?j:k.garY(),j,j))
 return A.fp(i,j,A.bM(A.a([s,A.cH(j,A.li(!0,A.bM(r,B.cG,B.o,B.aW),B.a7,!1),B.v,j,j,B.Wy,j,j,j,B.a0L,j,j,j)],h),B.w,B.o,B.r),j)}}
 A.aTQ.prototype={
 $0(){return this.a.at=this.b},
@@ -55877,8 +55877,8 @@ s.as=!1
 s.at=null},
 $S:0}
 A.aTX.prototype={
-$1(a){var s=null,r=this.a,q=t.p,p=A.aFg(A.bM(A.a([B.ax_,B.aG,B.aw0,B.an,A.hb(!0,B.b3,!1,s,!0,B.x,s,A.hK(),r,s,s,s,s,s,2,B.a4r,B.T,!0,s,!0,s,!1,s,B.b8,s,s,s,s,s,s,s,3,2,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bj,s,s,B.b0,B.aV,s,s,s,s,s,s,s,!0,B.ao,s,B.bo,s,s,s,s)],q),B.aq,B.o,B.aW),s,B.T,s,s,B.a6)
-return A.kF(A.a([A.dB(!1,B.f7,s,s,s,s,s,s,new A.aTV(a),s,s),A.dB(!1,B.awk,s,s,s,s,s,s,new A.aTW(a,r),s,s)],q),p,s,B.Ux)},
+$1(a){var s=null,r=this.a,q=t.p,p=A.aFg(A.bM(A.a([B.awZ,B.aG,B.aw0,B.an,A.hb(!0,B.b3,!1,s,!0,B.x,s,A.hK(),r,s,s,s,s,s,2,B.a4r,B.T,!0,s,!0,s,!1,s,B.b8,s,s,s,s,s,s,s,3,2,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bj,s,s,B.b0,B.aV,s,s,s,s,s,s,s,!0,B.ao,s,B.bo,s,s,s,s)],q),B.aq,B.o,B.aW),s,B.T,s,s,B.a6)
+return A.kF(A.a([A.dB(!1,B.f7,s,s,s,s,s,s,new A.aTV(a),s,s),A.dB(!1,B.awj,s,s,s,s,s,s,new A.aTW(a,r),s,s)],q),p,s,B.Ux)},
 $S:37}
 A.aTV.prototype={
 $0(){A.c5(this.a,!1).e0(null)
@@ -55959,7 +55959,7 @@ $S:0}
 A.qN.prototype={}
 A.b1d.prototype={
 $1(a){var s=null
-return A.li(!0,A.oL(A.a([A.h2(!1,s,s,s,!0,s,s,!0,!1,B.a3J,s,s,new A.b1b(a),!1,s,s,s,s,s,B.awa,s,s),A.h2(!1,s,s,s,!0,s,s,!0,!1,B.a2X,s,s,new A.b1c(a),!1,s,s,s,s,s,B.awK,s,s)],t.p),0,0),B.a7,!0)},
+return A.li(!0,A.oL(A.a([A.h2(!1,s,s,s,!0,s,s,!0,!1,B.a3J,s,s,new A.b1b(a),!1,s,s,s,s,s,B.aw9,s,s),A.h2(!1,s,s,s,!0,s,s,!0,!1,B.a2X,s,s,new A.b1c(a),!1,s,s,s,s,s,B.awJ,s,s)],t.p),0,0),B.a7,!0)},
 $S:470}
 A.b1b.prototype={
 $0(){A.c5(this.a,!1).e0(B.AR)
@@ -56036,7 +56036,7 @@ $1(a){var s,r,q=null,p=t.p,o=A.a([A.a_(this.a?"Votre t\xe9l\xe9phone bloque la p
 for(s=0;s<5;s=r){r=s+1
 o.push(new A.aN(B.le,A.bt(A.a([A.a_(""+r+".  ",q,q,q,q,B.at6,q,q),new A.e2(1,B.b1,A.a_(B.acS[s],q,q,q,q,B.Uj,q,q),q)],p),B.aq,B.o,B.r),q))}o=A.aFg(A.bM(o,B.aq,B.o,B.aW),q,B.T,q,q,B.a6)
 p=A.a([],p)
-p.push(A.b8O(!1,B.awN,B.v,q,q,q,q,q,new A.b14(a),q,q))
+p.push(A.b8O(!1,B.awM,B.v,q,q,q,q,q,new A.b14(a),q,q))
 return A.kF(p,o,B.a34,B.avT)},
 $S:37}
 A.b14.prototype={
@@ -114179,7 +114179,7 @@ A.zr.prototype={
 E(a){var s=null,r=A.fT(s,s,s,s,B.axk),q=this.c
 q=q==null?s:"GoException: "+q.a
 if(q==null)q="page not found"
-return A.fp(r,s,A.dV(A.bM(A.a([new A.Jw(q,s),A.dB(!1,B.awm,s,s,s,s,s,s,new A.av9(a),s,s)],t.p),B.w,B.fW,B.r),s,s),s)}}
+return A.fp(r,s,A.dV(A.bM(A.a([new A.Jw(q,s),A.dB(!1,B.awl,s,s,s,s,s,s,new A.av9(a),s,s)],t.p),B.w,B.fW,B.r),s,s),s)}}
 A.av9.prototype={
 $0(){return A.q7(this.a).oR("/",null)},
 $S:0}
@@ -118327,8 +118327,8 @@ A.a_N.prototype={
 aKT(a,b,c){return A.ju(this.ajL(a,B.ur,this.f,c,c,c),c)}}
 A.vz.prototype={
 Gh(a){return A.Il(this.mt(a),A.m(this).c)},
-I4(a,b){var s=this,r=s.f.gh0().h(0,"order"),q=r==null?"":r+","
-return A.Il(s.Gh(s.I5("order",q+a+".desc.nullslast")),A.m(s).c)},
+I4(a,b){var s=this,r=s.f.gh0().h(0,"order"),q=r==null?"":r+",",p=b?"asc":"desc"
+return A.Il(s.Gh(s.I5("order",q+a+"."+p+".nullslast")),A.m(s).c)},
 aJ6(a){return this.I4(a,!1)},
 a6t(a){return A.Il(this.Gh(this.I5("limit",""+a)),A.m(this).c)},
 a7x(a,b){var s=this
@@ -120837,7 +120837,7 @@ break
 case 6:f=f.Hh(e.a,e.b)
 break}n=null
 e=o.as
-if(e!=null)n=f.I4(e.a,!1)
+if(e!=null)n=f.I4(e.a,e.b)
 e=o.at
 if(e!=null){i=n
 n=(i==null?f:i).a6t(e)}q=3
@@ -120871,8 +120871,8 @@ Za(a,b){var s=A.bq("targetRecord"),r=a.d
 if(r===B.RY)s.seH(a.e)
 else if(r===B.RZ)s.seH(a.f)
 return B.b.e5(this.w,new A.aGE(b,s))},
-ay9(){this.as.toString
-B.b.hA(this.z,new A.aGH(this,-1))},
+ay9(){var s=this.as.b?1:-1
+B.b.hA(this.z,new A.aGH(this,s))},
 De(){var s,r,q,p=this
 if(p.as!=null)p.ay9()
 s=p.y
@@ -125617,14 +125617,14 @@ B.AC=new A.aM(61183,"MaterialIcons",null,!1)
 B.ap=new A.L(1,0.47843137254901963,0.47843137254901963,0.47843137254901963,B.j)
 B.a36=new A.bd(B.AC,null,B.ap,null,null,null)
 B.Yz=new A.fB(B.S,null,null,B.a36,null)
+B.aC=new A.u(!0,B.ap,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.axa=new A.a9("FENTIR \xb7 version 1.18.10",null,B.aC,null,null,null,null,null,null,null)
+B.YA=new A.fB(B.S,null,null,B.axa,null)
 B.zJ=new A.ai(32,32,32,32)
 B.dR=new A.u(!0,B.ap,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.axt=new A.a9("Aucune notification pour le moment.",null,B.dR,null,null,null,null,null,null,null)
 B.ak8=new A.aN(B.zJ,B.axt,null)
-B.YA=new A.fB(B.S,null,null,B.ak8,null)
-B.aC=new A.u(!0,B.ap,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aw7=new A.a9("FENTIR \xb7 version 1.18.9",null,B.aC,null,null,null,null,null,null,null)
-B.YB=new A.fB(B.S,null,null,B.aw7,null)
+B.YB=new A.fB(B.S,null,null,B.ak8,null)
 B.aDB=new A.aJD(0,"material")
 B.YP=new A.j5(null,null,null,null,null,null,null,null,null,null)
 B.ak9=new A.aN(B.zJ,B.YP,null)
@@ -125932,8 +125932,8 @@ B.a_O=new A.VC(null)
 B.a_P=new A.Fm(null,null,null,null,null,null,null,null,null)
 B.a_Q=new A.yu(null)
 B.a_R=new A.ua(null)
-B.avL=new A.a9("Tous les mois",null,null,null,null,null,null,null,null,null)
-B.a_S=new A.np(null,B.avL,B.hg,null,t.py)
+B.avM=new A.a9("Tous les mois",null,null,null,null,null,null,null,null,null)
+B.a_S=new A.np(null,B.avM,B.hg,null,t.py)
 B.a_T=new A.Fo(null,null,null)
 B.M=new A.aQ(0)
 B.fv=new A.aQ(1e6)
@@ -126119,8 +126119,8 @@ B.wS=new A.u(!0,null,null,null,null,null,null,B.cI,null,null,null,null,null,null
 B.aw6=new A.a9("Montant \xe0 payer",null,B.wS,null,null,null,null,null,null,null)
 B.a1t=new A.e2(1,B.b1,B.aw6,null)
 B.Un=new A.u(!0,null,null,null,null,null,13,B.cI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.avC=new A.a9("Vous avez copi\xe9 une position. L'utiliser ?",null,B.Un,null,null,null,null,null,null,null)
-B.a1x=new A.e2(1,B.b1,B.avC,null)
+B.avD=new A.a9("Vous avez copi\xe9 une position. L'utiliser ?",null,B.Un,null,null,null,null,null,null,null)
+B.a1x=new A.e2(1,B.b1,B.avD,null)
 B.a1y=new A.FI(null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.lj=new A.nu(!1,!1,!1,!1)
 B.lk=new A.nu(!1,!1,!1,!0)
@@ -126370,8 +126370,8 @@ B.YO=new A.j5(2.5,null,null,null,null,null,null,null,null,null)
 B.apn=new A.cU(22,22,B.YO,null)
 B.api=new A.cU(14,null,null,null)
 B.iA=new A.u(!0,null,null,null,null,null,15,B.bk,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.avv=new A.a9("Recherche d'un livreur sur votre trajet\u2026",null,B.iA,null,null,null,null,null,null,null)
-B.a1w=new A.e2(1,B.b1,B.avv,null)
+B.avw=new A.a9("Recherche d'un livreur sur votre trajet\u2026",null,B.iA,null,null,null,null,null,null,null)
+B.a1w=new A.e2(1,B.b1,B.avw,null)
 B.aaA=A.a(s([B.apn,B.api,B.a1w]),t.p)
 B.amL=new A.on(B.b_,B.o,B.r,B.w,null,B.cl,null,0,B.aaA,null)
 B.aG=new A.cU(null,8,null,null)
@@ -126379,10 +126379,10 @@ B.axg=new A.a9("Nous proposons votre colis aux usagers qui passent pr\xe8s du li
 B.a8i=A.a(s([B.amL,B.aG,B.axg]),t.p)
 B.a47=new A.hq(null,B.a8i,null)
 B.km=new A.u(!0,null,null,null,null,null,16,B.bk,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ax6=new A.a9("Paiement en cours de v\xe9rification",null,B.km,null,null,null,null,null,null,null)
+B.ax5=new A.a9("Paiement en cours de v\xe9rification",null,B.km,null,null,null,null,null,null,null)
 B.d4=new A.cU(null,6,null,null)
-B.aw8=new A.a9("L'\xe9quipe FENTIR v\xe9rifie votre capture. D\xe8s validation, nous cherchons un livreur qui va dans la direction de votre colis.",null,B.dR,null,null,null,null,null,null,null)
-B.aaN=A.a(s([B.ax6,B.d4,B.aw8]),t.p)
+B.aw7=new A.a9("L'\xe9quipe FENTIR v\xe9rifie votre capture. D\xe8s validation, nous cherchons un livreur qui va dans la direction de votre colis.",null,B.dR,null,null,null,null,null,null,null)
+B.aaN=A.a(s([B.ax5,B.d4,B.aw7]),t.p)
 B.a48=new A.hq(null,B.aaN,null)
 B.aBm=new A.rE("L'\xe9quipe FENTIR v\xe9rifie vos documents, puis active votre compte.",null)
 B.aBn=new A.rE("Ensuite, vous recevez automatiquement les colis qui collent \xe0 vos trajets : acceptez ou refusez.",null)
@@ -126392,8 +126392,8 @@ B.aBo=new A.rE("Pendant une course, de l'acceptation \xe0 la livraison, l'exp\xe
 B.a8I=A.a(s([B.aBm,B.aBn,B.aBk,B.aBl,B.aBo]),t.p)
 B.a49=new A.hq("Comment \xe7a marche",B.a8I,null)
 B.rp=new A.u(!0,B.at,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.awG=new A.a9("Les num\xe9ros de paiement ne sont pas encore configur\xe9s. Contactez l'\xe9quipe FENTIR.",null,B.rp,null,null,null,null,null,null,null)
-B.a9e=A.a(s([B.awG]),t.p)
+B.awF=new A.a9("Les num\xe9ros de paiement ne sont pas encore configur\xe9s. Contactez l'\xe9quipe FENTIR.",null,B.rp,null,null,null,null,null,null,null)
+B.a9e=A.a(s([B.awF]),t.p)
 B.a4a=new A.hq(null,B.a9e,null)
 B.axc=new A.a9("Cette mission n'est plus active.",null,null,null,null,null,null,null,null,null)
 B.abS=A.a(s([B.axc]),t.p)
@@ -129348,23 +129348,23 @@ B.Oh=new A.axT(0,"max")
 B.u6=new A.ai(0,6,0,0)
 B.apM=new A.kl("Livreur",B.C,null)
 B.ak7=new A.aN(B.u6,B.apM,null)
-B.awC=new A.a9("Joignez la capture pour confirmer.",null,B.aC,B.cC,null,null,null,null,null,null)
-B.aka=new A.aN(B.u6,B.awC,null)
+B.awB=new A.a9("Joignez la capture pour confirmer.",null,B.aC,B.cC,null,null,null,null,null,null)
+B.aka=new A.aN(B.u6,B.awB,null)
 B.zE=new A.ai(0,40,0,0)
 B.a1g=new A.hn(B.lC,"Aucune livraison ici",null,null)
 B.akb=new A.aN(B.zE,B.a1g,null)
 B.akc=new A.aN(B.bL,B.bG,null)
 B.a0y=new A.ai(0,8,0,0)
-B.awq=new A.a9("Merci pour votre note !",null,null,null,null,null,null,null,null,null)
-B.akd=new A.aN(B.a0y,B.awq,null)
+B.awp=new A.a9("Merci pour votre note !",null,null,null,null,null,null,null,null,null)
+B.akd=new A.aN(B.a0y,B.awp,null)
 B.a12=new A.ai(4,6,0,0)
 B.aw_=new A.a9("Votre num\xe9ro sert d'identifiant. Il n'est montr\xe9 qu'aux personnes avec qui vous faites une livraison.",null,B.aC,null,null,null,null,null,null,null)
 B.ake=new A.aN(B.a12,B.aw_,null)
 B.a2o=new A.aM(58728,"MaterialIcons",null,!1)
 B.a1d=new A.hn(B.a2o,"Aucune mission trouv\xe9e",null,null)
 B.akf=new A.aN(B.zE,B.a1d,null)
-B.awI=new A.a9("Le plus pr\xe9cis : demandez au destinataire sa position (WhatsApp par exemple) et collez-la. Sinon, un point approximatif suffit : le livreur l'appellera en arrivant.",null,B.aC,null,null,null,null,null,null,null)
-B.akg=new A.aN(B.u6,B.awI,null)
+B.awH=new A.a9("Le plus pr\xe9cis : demandez au destinataire sa position (WhatsApp par exemple) et collez-la. Sinon, un point approximatif suffit : le livreur l'appellera en arrivant.",null,B.aC,null,null,null,null,null,null,null)
+B.akg=new A.aN(B.u6,B.awH,null)
 B.Oi=new A.zM(null)
 B.dq=new A.a_q(0,"fill")
 B.b5=new A.a_q(1,"stroke")
@@ -129574,12 +129574,12 @@ B.im=new A.Aq(1,"doNotPop")
 B.SF=new A.Aq(2,"bubble")
 B.io=new A.jy(null,null)
 B.arG=new A.u(!0,null,null,null,null,null,36,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.awB=new A.a9("\ud83c\udfc6",null,B.arG,null,null,null,null,null,null,null)
+B.awA=new A.a9("\ud83c\udfc6",null,B.arG,null,null,null,null,null,null,null)
 B.iv=new A.cU(12,null,null,null)
 B.atS=new A.u(!0,null,null,null,null,null,20,B.bU,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.awH=new A.a9("Mission accomplie !",null,B.atS,null,null,null,null,null,null,null)
-B.a1s=new A.e2(1,B.b1,B.awH,null)
-B.a9h=A.a(s([B.awB,B.iv,B.a1s]),t.p)
+B.awG=new A.a9("Mission accomplie !",null,B.atS,null,null,null,null,null,null,null)
+B.a1s=new A.e2(1,B.b1,B.awG,null)
+B.a9h=A.a(s([B.awA,B.iv,B.a1s]),t.p)
 B.amH=new A.on(B.b_,B.o,B.r,B.w,null,B.cl,null,0,B.a9h,null)
 B.a3h=new A.bd(B.An,32,B.C,null,null,null)
 B.cj=new A.cU(10,null,null,null)
@@ -129589,14 +129589,14 @@ B.a1u=new A.e2(1,B.b1,B.axf,null)
 B.a8Z=A.a(s([B.a3h,B.cj,B.a1u]),t.p)
 B.amI=new A.on(B.b_,B.o,B.r,B.w,null,B.cl,null,0,B.a8Z,null)
 B.a3H=new A.bd(B.fC,36,B.C,null,null,null)
-B.ax2=new A.a9("Devenez livreur FENTIR",null,B.Uh,null,null,null,null,null,null,null)
-B.a1v=new A.e2(1,B.b1,B.ax2,null)
+B.ax1=new A.a9("Devenez livreur FENTIR",null,B.Uh,null,null,null,null,null,null,null)
+B.a1v=new A.e2(1,B.b1,B.ax1,null)
 B.ac9=A.a(s([B.a3H,B.iv,B.a1v]),t.p)
 B.amJ=new A.on(B.b_,B.o,B.r,B.w,null,B.cl,null,0,B.ac9,null)
 B.a3o=new A.bd(B.At,null,B.at,null,null,null)
 B.c_=new A.u(!0,null,null,null,null,null,null,B.bk,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.avB=new A.a9("Votre position n'est pas partag\xe9e : vous ne recevez pas de propositions.",null,B.c_,null,null,null,null,null,null,null)
-B.a1r=new A.e2(1,B.b1,B.avB,null)
+B.avC=new A.a9("Votre position n'est pas partag\xe9e : vous ne recevez pas de propositions.",null,B.c_,null,null,null,null,null,null,null)
+B.a1r=new A.e2(1,B.b1,B.avC,null)
 B.a6I=A.a(s([B.a3o,B.cj,B.a1r]),t.p)
 B.amK=new A.on(B.b_,B.o,B.r,B.w,null,B.cl,null,0,B.a6I,null)
 B.Xi=new A.DW()
@@ -130336,26 +130336,26 @@ B.auo=new A.u(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,nul
 B.aqV=new A.u(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.l,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.avp=new A.eQ(B.asY,B.arS,B.asZ,B.atB,B.ark,B.aru,B.asf,B.atp,B.asr,B.au6,B.aqN,B.ar2,B.au_,B.auo,B.aqV)
 B.avq=new A.a9("Mon profil",null,null,null,null,null,null,null,null,null)
-B.avr=new A.a9("Paiements, livreurs, versements, param\xe8tres",null,null,null,null,null,null,null,null,null)
+B.avr=new A.a9("Cette appli : version 1.18.10 (build 28). Les applis Android dont le build est inf\xe9rieur \xe0 la version minimale affichent l'\xe9cran de mise \xe0 jour.",null,B.aC,null,null,null,null,null,null,null)
+B.avs=new A.a9("Paiements, livreurs, versements, param\xe8tres",null,null,null,null,null,null,null,null,null)
 B.Uq=new A.u(!0,null,null,null,null,null,22,B.bk,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.avs=new A.a9("Rejoignez FENTIR",null,B.Uq,null,null,null,null,null,null,null)
-B.avt=new A.a9("Voir toutes mes livraisons",null,null,null,null,null,null,null,null,null)
-B.avu=new A.a9("Num\xe9ro Orange Money",null,null,null,null,null,null,null,null,null)
-B.avw=new A.a9("Sinon conseill\xe9e : l'utilisateur peut choisir \xab Plus tard \xbb.",null,null,null,null,null,null,null,null,null)
-B.avx=new A.a9("Refuser les documents",null,null,null,null,null,null,null,null,null)
+B.avt=new A.a9("Rejoignez FENTIR",null,B.Uq,null,null,null,null,null,null,null)
+B.avu=new A.a9("Voir toutes mes livraisons",null,null,null,null,null,null,null,null,null)
+B.avv=new A.a9("Num\xe9ro Orange Money",null,null,null,null,null,null,null,null,null)
+B.avx=new A.a9("Sinon conseill\xe9e : l'utilisateur peut choisir \xab Plus tard \xbb.",null,null,null,null,null,null,null,null,null)
+B.avy=new A.a9("Refuser les documents",null,null,null,null,null,null,null,null,null)
 B.auP=new A.u(!0,B.a2,null,null,null,null,24,B.jk,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.avy=new A.a9("Mission accomplie !",null,B.auP,null,null,null,null,null,null,null)
-B.avz=new A.a9("Historique de mes envois",null,null,null,null,null,null,null,null,null)
-B.avA=new A.a9("Commencer",null,null,null,null,null,null,null,null,null)
-B.avD=new A.a9("Fragile (+20 %)",null,null,null,null,null,null,null,null,null)
-B.avE=new A.a9("D\xe9finissez un nouveau mot de passe, puis envoyez-le \xe0 l'utilisateur sur WhatsApp.",null,B.aC,null,null,null,null,null,null,null)
-B.avF=new A.a9("Mise \xe0 jour de l'appli",null,B.km,null,null,null,null,null,null,null)
-B.avG=new A.a9("Au-del\xe0, une mission ne vous est propos\xe9e qu'en dernier recours, si personne d'autre n'est disponible.",null,B.aC,null,null,null,null,null,null,null)
-B.avH=new A.a9("Mot de passe oubli\xe9",null,B.km,null,null,null,null,null,null,null)
-B.avI=new A.a9("Administration FENTIR",null,null,null,null,null,null,null,null,null)
-B.avJ=new A.a9("Toutes vos notifications seront supprim\xe9es.",null,null,null,null,null,null,null,null,null)
-B.avK=new A.a9("Alimentaire",null,null,null,null,null,null,null,null,null)
-B.avM=new A.a9("Cette appli : version 1.18.9 (build 27). Les applis Android dont le build est inf\xe9rieur \xe0 la version minimale affichent l'\xe9cran de mise \xe0 jour.",null,B.aC,null,null,null,null,null,null,null)
+B.avz=new A.a9("Mission accomplie !",null,B.auP,null,null,null,null,null,null,null)
+B.avA=new A.a9("Historique de mes envois",null,null,null,null,null,null,null,null,null)
+B.avB=new A.a9("Commencer",null,null,null,null,null,null,null,null,null)
+B.avE=new A.a9("Fragile (+20 %)",null,null,null,null,null,null,null,null,null)
+B.avF=new A.a9("D\xe9finissez un nouveau mot de passe, puis envoyez-le \xe0 l'utilisateur sur WhatsApp.",null,B.aC,null,null,null,null,null,null,null)
+B.avG=new A.a9("Mise \xe0 jour de l'appli",null,B.km,null,null,null,null,null,null,null)
+B.avH=new A.a9("Au-del\xe0, une mission ne vous est propos\xe9e qu'en dernier recours, si personne d'autre n'est disponible.",null,B.aC,null,null,null,null,null,null,null)
+B.avI=new A.a9("Mot de passe oubli\xe9",null,B.km,null,null,null,null,null,null,null)
+B.avJ=new A.a9("Administration FENTIR",null,null,null,null,null,null,null,null,null)
+B.avK=new A.a9("Toutes vos notifications seront supprim\xe9es.",null,null,null,null,null,null,null,null,null)
+B.avL=new A.a9("Alimentaire",null,null,null,null,null,null,null,null,null)
 B.Us=new A.a9("Cr\xe9er un compte",null,null,null,null,null,null,null,null,null)
 B.avP=new A.a9("Envoyer le code au destinataire (WhatsApp)",null,null,null,null,null,null,null,null,null)
 B.avQ=new A.a9("Retour",null,null,null,null,null,null,null,null,null)
@@ -130378,74 +130378,74 @@ B.aw2=new A.a9("Votre paiement n'a pas \xe9t\xe9 retrouv\xe9. V\xe9rifiez le mon
 B.aw3=new A.a9("Ouvrir la tourn\xe9e dans Google Maps",null,null,null,null,null,null,null,null,null)
 B.aw4=new A.a9("Page Not Found",null,B.c_,null,null,null,null,null,null,null)
 B.aw5=new A.a9("Devenir livreur FENTIR",null,null,null,null,null,null,null,null,null)
-B.aw9=new A.a9("Sur place, scannez le QR code affich\xe9 sur le t\xe9l\xe9phone de l'exp\xe9diteur.",null,B.kl,null,null,null,null,null,null,null)
-B.awa=new A.a9("Prendre une photo",null,null,null,null,null,null,null,null,null)
-B.awb=new A.a9("Plus tard",null,null,null,null,null,null,null,null,null)
-B.awc=new A.a9("Mes missions",null,null,null,null,null,null,null,null,null)
-B.awd=new A.a9("Photos nettes et lisibles, en entier. Elles ne sont visibles que par l'\xe9quipe FENTIR.",null,B.aC,null,null,null,null,null,null,null)
-B.awe=new A.a9("Le livreur scanne ce code quand il r\xe9cup\xe8re le colis.",null,B.wR,null,null,null,null,null,null,null)
+B.aw8=new A.a9("Sur place, scannez le QR code affich\xe9 sur le t\xe9l\xe9phone de l'exp\xe9diteur.",null,B.kl,null,null,null,null,null,null,null)
+B.aw9=new A.a9("Prendre une photo",null,null,null,null,null,null,null,null,null)
+B.awa=new A.a9("Plus tard",null,null,null,null,null,null,null,null,null)
+B.awb=new A.a9("Mes missions",null,null,null,null,null,null,null,null,null)
+B.awc=new A.a9("Photos nettes et lisibles, en entier. Elles ne sont visibles que par l'\xe9quipe FENTIR.",null,B.aC,null,null,null,null,null,null,null)
+B.awd=new A.a9("Le livreur scanne ce code quand il r\xe9cup\xe8re le colis.",null,B.wR,null,null,null,null,null,null,null)
 B.f7=new A.a9("Annuler",null,null,null,null,null,null,null,null,null)
-B.awf=new A.a9("WhatsApp",null,null,null,null,null,null,null,null,null)
-B.awg=new A.a9("Mise \xe0 jour obligatoire",null,null,null,null,null,null,null,null,null)
-B.awh=new A.a9("Voir comment faire",null,null,null,null,null,null,null,null,null)
-B.awi=new A.a9("Continuer",null,null,null,null,null,null,null,null,null)
-B.awj=new A.a9("Saisir le code du destinataire",null,null,null,null,null,null,null,null,null)
-B.awk=new A.a9("Importer",null,null,null,null,null,null,null,null,null)
-B.awl=new A.a9("Aucun livreur n'a \xe9t\xe9 trouv\xe9 \xe0 temps.",null,B.iA,null,null,null,null,null,null,null)
-B.awm=new A.a9("Home",null,null,null,null,null,null,null,null,null)
-B.awn=new A.a9("Annuler et \xeatre rembours\xe9",null,B.rp,null,null,null,null,null,null,null)
-B.awo=new A.a9("Faites glisser la carte pour placer l'\xe9pingle au bon endroit.",null,B.aC,null,null,null,null,null,null,null)
-B.awp=new A.a9("Activer",null,null,null,null,null,null,null,null,null)
-B.awr=new A.a9("Aucune mission re\xe7ue pour le moment. Elles appara\xeetront ici d\xe8s qu'une mission vous sera propos\xe9e.",null,B.Ur,null,null,null,null,null,null,null)
-B.aws=new A.a9("Annuler la mission ?",null,null,null,null,null,null,null,null,null)
+B.awe=new A.a9("WhatsApp",null,null,null,null,null,null,null,null,null)
+B.awf=new A.a9("Mise \xe0 jour obligatoire",null,null,null,null,null,null,null,null,null)
+B.awg=new A.a9("Voir comment faire",null,null,null,null,null,null,null,null,null)
+B.awh=new A.a9("Continuer",null,null,null,null,null,null,null,null,null)
+B.awi=new A.a9("Saisir le code du destinataire",null,null,null,null,null,null,null,null,null)
+B.awj=new A.a9("Importer",null,null,null,null,null,null,null,null,null)
+B.awk=new A.a9("Aucun livreur n'a \xe9t\xe9 trouv\xe9 \xe0 temps.",null,B.iA,null,null,null,null,null,null,null)
+B.awl=new A.a9("Home",null,null,null,null,null,null,null,null,null)
+B.awm=new A.a9("Annuler et \xeatre rembours\xe9",null,B.rp,null,null,null,null,null,null,null)
+B.awn=new A.a9("Faites glisser la carte pour placer l'\xe9pingle au bon endroit.",null,B.aC,null,null,null,null,null,null,null)
+B.awo=new A.a9("Activer",null,null,null,null,null,null,null,null,null)
+B.awq=new A.a9("Aucune mission re\xe7ue pour le moment. Elles appara\xeetront ici d\xe8s qu'une mission vous sera propos\xe9e.",null,B.Ur,null,null,null,null,null,null,null)
+B.awr=new A.a9("Annuler la mission ?",null,null,null,null,null,null,null,null,null)
 B.rq=new A.a9("Valider",null,null,null,null,null,null,null,null,null)
-B.awt=new A.a9("L'\xe9quipe FENTIR vous envoie un nouveau mot de passe sur WhatsApp.",null,B.aC,B.cC,null,null,null,null,null,null)
+B.aws=new A.a9("L'\xe9quipe FENTIR vous envoie un nouveau mot de passe sur WhatsApp.",null,B.aC,B.cC,null,null,null,null,null,null)
 B.wT=new A.a9("Refuser",null,null,null,null,null,null,null,null,null)
 B.Uu=new A.a9("R\xe9initialiser un mot de passe",null,null,null,null,null,null,null,null,null)
 B.Uv=new A.a9("Enregistrer",null,null,null,null,null,null,null,null,null)
-B.awu=new A.a9("Oui",null,null,null,null,null,null,null,null,null)
+B.awt=new A.a9("Oui",null,null,null,null,null,null,null,null,null)
 B.Up=new A.u(!0,B.ap,null,null,null,null,12,null,null,null,null,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.awv=new A.a9("FENTIR vous propose les colis sur votre chemin. Vous \xeates libre d'accepter ou de refuser.",null,B.Up,null,null,null,null,null,null,null)
+B.awu=new A.a9("FENTIR vous propose les colis sur votre chemin. Vous \xeates libre d'accepter ou de refuser.",null,B.Up,null,null,null,null,null,null,null)
 B.Ul=new A.u(!0,B.ap,null,null,null,null,null,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aww=new A.a9("Envoyez vos colis avec des personnes qui vont d\xe9j\xe0 dans la bonne direction, ou gagnez de l'argent sur vos trajets quotidiens.",null,B.Ul,null,null,null,null,null,null,null)
-B.awx=new A.a9("Se d\xe9connecter",null,B.rp,null,null,null,null,null,null,null)
-B.awy=new A.a9("V\xe9rifiez que le montant est bien arriv\xe9 sur votre compte Orange Money avant de valider.",null,B.aC,null,null,null,null,null,null,null)
-B.awz=new A.a9("Valider ce lieu",null,null,null,null,null,null,null,null,null)
-B.awA=new A.a9("Je m'engage \xe0 respecter le code de conduite : ponctualit\xe9, soin des colis, respect du code de la route.",null,B.rm,null,null,null,null,null,null,null)
-B.awD=new A.a9("Notifications",null,null,null,null,null,null,null,null,null)
-B.awE=new A.a9("Copier",null,null,null,null,null,null,null,null,null)
-B.awF=new A.a9("Gagnez de l'argent lors de vos trajets quotidiens.",null,B.kl,null,null,null,null,null,null,null)
-B.awJ=new A.a9("Tout effacer",null,null,null,null,null,null,null,null,null)
-B.awK=new A.a9("Choisir dans la galerie",null,null,null,null,null,null,null,null,null)
-B.awL=new A.a9("Devenir livreur",null,null,null,null,null,null,null,null,null)
-B.awM=new A.a9("Messages",null,null,null,null,null,null,null,null,null)
-B.awN=new A.a9("J'ai compris",null,null,null,null,null,null,null,null,null)
-B.awO=new A.a9("Suspendre",null,null,null,null,null,null,null,null,null)
-B.awP=new A.a9("Annuler la mission",null,B.rp,null,null,null,null,null,null,null)
-B.awQ=new A.a9("J'ai d\xe9j\xe0 un compte",null,null,null,null,null,null,null,null,null)
-B.awR=new A.a9("Tout effacer ?",null,null,null,null,null,null,null,null,null)
-B.awS=new A.a9("Itin\xe9raire : collecte puis livraison",null,null,null,null,null,null,null,null,null)
-B.awT=new A.a9("Le paiement se fait par Orange Money. Le livreur n'est recherch\xe9 qu'apr\xe8s validation du paiement.",null,B.aC,B.cC,null,null,null,null,null,null)
+B.awv=new A.a9("Envoyez vos colis avec des personnes qui vont d\xe9j\xe0 dans la bonne direction, ou gagnez de l'argent sur vos trajets quotidiens.",null,B.Ul,null,null,null,null,null,null,null)
+B.aww=new A.a9("Se d\xe9connecter",null,B.rp,null,null,null,null,null,null,null)
+B.awx=new A.a9("V\xe9rifiez que le montant est bien arriv\xe9 sur votre compte Orange Money avant de valider.",null,B.aC,null,null,null,null,null,null,null)
+B.awy=new A.a9("Valider ce lieu",null,null,null,null,null,null,null,null,null)
+B.awz=new A.a9("Je m'engage \xe0 respecter le code de conduite : ponctualit\xe9, soin des colis, respect du code de la route.",null,B.rm,null,null,null,null,null,null,null)
+B.awC=new A.a9("Notifications",null,null,null,null,null,null,null,null,null)
+B.awD=new A.a9("Copier",null,null,null,null,null,null,null,null,null)
+B.awE=new A.a9("Gagnez de l'argent lors de vos trajets quotidiens.",null,B.kl,null,null,null,null,null,null,null)
+B.awI=new A.a9("Tout effacer",null,null,null,null,null,null,null,null,null)
+B.awJ=new A.a9("Choisir dans la galerie",null,null,null,null,null,null,null,null,null)
+B.awK=new A.a9("Devenir livreur",null,null,null,null,null,null,null,null,null)
+B.awL=new A.a9("Messages",null,null,null,null,null,null,null,null,null)
+B.awM=new A.a9("J'ai compris",null,null,null,null,null,null,null,null,null)
+B.awN=new A.a9("Suspendre",null,null,null,null,null,null,null,null,null)
+B.awO=new A.a9("Annuler la mission",null,B.rp,null,null,null,null,null,null,null)
+B.awP=new A.a9("J'ai d\xe9j\xe0 un compte",null,null,null,null,null,null,null,null,null)
+B.awQ=new A.a9("Tout effacer ?",null,null,null,null,null,null,null,null,null)
+B.awR=new A.a9("Itin\xe9raire : collecte puis livraison",null,null,null,null,null,null,null,null,null)
+B.awS=new A.a9("Le paiement se fait par Orange Money. Le livreur n'est recherch\xe9 qu'apr\xe8s validation du paiement.",null,B.aC,B.cC,null,null,null,null,null,null)
 B.Uw=new A.a9("Scanner le QR de collecte",null,null,null,null,null,null,null,null,null)
 B.Ux=new A.a9("Coller une position",null,null,null,null,null,null,null,null,null)
 B.arU=new A.u(!0,null,null,null,null,null,22,B.bU,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.awU=new A.a9("Gagnez de l'argent sur vos trajets",null,B.arU,null,null,null,null,null,null,null)
-B.awV=new A.a9("Demander sa position sur WhatsApp",null,null,null,null,null,null,null,null,null)
-B.awW=new A.a9("Autoriser ma position",null,null,null,null,null,null,null,null,null)
-B.awX=new A.a9("Message \xe0 l'exp\xe9diteur",null,null,null,null,null,null,null,null,null)
-B.awY=new A.a9("J'accepte les conditions d'utilisation de FENTIR et l'utilisation de ma position pour le service de livraison.",null,B.rm,null,null,null,null,null,null,null)
-B.awZ=new A.a9("Centrer sur le livreur",null,null,null,null,null,null,null,null,null)
-B.ax_=new A.a9("Demandez \xe0 la personne de vous envoyer sa position (WhatsApp par exemple), puis :",null,B.rm,null,null,null,null,null,null,null)
-B.ax0=new A.a9("Mes gains",null,null,null,null,null,null,null,null,null)
-B.ax1=new A.a9("Rejeter",null,null,null,null,null,null,null,null,null)
-B.ax3=new A.a9("FENTIR vous propose uniquement des colis \xe0 prendre et \xe0 d\xe9poser sur votre chemin, avec un petit d\xe9tour. Vous \xeates libre d'accepter ou de refuser.",null,B.Ul,null,null,null,null,null,null,null)
-B.ax4=new A.a9("Voir tout l'historique",null,null,null,null,null,null,null,null,null)
-B.ax5=new A.a9("Indiquez les trois lieux que vous fr\xe9quentez le plus : FENTIR vous propose les colis qui collent \xe0 vos trajets habituels.",null,B.Up,null,null,null,null,null,null,null)
-B.ax7=new A.a9("Vers\xe9 sur votre Orange Money par l'\xe9quipe FENTIR.",null,B.aC,null,null,null,null,null,null,null)
-B.ax8=new A.a9("Envoyer un colis",null,null,null,null,null,null,null,null,null)
+B.awT=new A.a9("Gagnez de l'argent sur vos trajets",null,B.arU,null,null,null,null,null,null,null)
+B.awU=new A.a9("Demander sa position sur WhatsApp",null,null,null,null,null,null,null,null,null)
+B.awV=new A.a9("Autoriser ma position",null,null,null,null,null,null,null,null,null)
+B.awW=new A.a9("Message \xe0 l'exp\xe9diteur",null,null,null,null,null,null,null,null,null)
+B.awX=new A.a9("J'accepte les conditions d'utilisation de FENTIR et l'utilisation de ma position pour le service de livraison.",null,B.rm,null,null,null,null,null,null,null)
+B.awY=new A.a9("Centrer sur le livreur",null,null,null,null,null,null,null,null,null)
+B.awZ=new A.a9("Demandez \xe0 la personne de vous envoyer sa position (WhatsApp par exemple), puis :",null,B.rm,null,null,null,null,null,null,null)
+B.ax_=new A.a9("Mes gains",null,null,null,null,null,null,null,null,null)
+B.ax0=new A.a9("Rejeter",null,null,null,null,null,null,null,null,null)
+B.ax2=new A.a9("FENTIR vous propose uniquement des colis \xe0 prendre et \xe0 d\xe9poser sur votre chemin, avec un petit d\xe9tour. Vous \xeates libre d'accepter ou de refuser.",null,B.Ul,null,null,null,null,null,null,null)
+B.ax3=new A.a9("Voir tout l'historique",null,null,null,null,null,null,null,null,null)
+B.ax4=new A.a9("Indiquez les trois lieux que vous fr\xe9quentez le plus : FENTIR vous propose les colis qui collent \xe0 vos trajets habituels.",null,B.Up,null,null,null,null,null,null,null)
+B.ax6=new A.a9("Vers\xe9 sur votre Orange Money par l'\xe9quipe FENTIR.",null,B.aC,null,null,null,null,null,null,null)
+B.ax7=new A.a9("Envoyer un colis",null,null,null,null,null,null,null,null,null)
 B.as_=new A.u(!0,B.at,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ax9=new A.a9("Position ancienne : t\xe9l\xe9phone du livreur peut-\xeatre hors connexion ou GPS coup\xe9.",null,B.as_,null,null,null,null,null,null,null)
-B.axa=new A.a9("Itin\xe9raire vers la livraison",null,null,null,null,null,null,null,null,null)
+B.ax8=new A.a9("Position ancienne : t\xe9l\xe9phone du livreur peut-\xeatre hors connexion ou GPS coup\xe9.",null,B.as_,null,null,null,null,null,null,null)
+B.ax9=new A.a9("Itin\xe9raire vers la livraison",null,null,null,null,null,null,null,null,null)
 B.axb=new A.a9("Mot de passe oubli\xe9 ?",null,null,null,null,null,null,null,null,null)
 B.axd=new A.a9("Le colis est entre de bonnes mains. Bravo !",null,B.dR,B.cC,null,null,null,null,null,null)
 B.ao6=new A.mz(B.q,B.h,6)
